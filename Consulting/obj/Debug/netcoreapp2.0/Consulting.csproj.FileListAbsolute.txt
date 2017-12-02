@@ -1,0 +1,36 @@
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.deps.json
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.json
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.dev.json
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.dll
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.pdb
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csprojResolveAssemblyReference.cache
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csproj.CoreCompileInputs.cache
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfoInputs.cache
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.dll
+I:\ASP.NET.MVC\Tests\midTerm\Examples_Core2.0\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.pdb
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.deps.json
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.json
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.dev.json
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.dll
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.pdb
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csprojResolveAssemblyReference.cache
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csproj.CoreCompileInputs.cache
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfoInputs.cache
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.dll
+I:\ASP.NET.MVC\Tests\midTerm\MidTermsF2017\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.pdb
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.deps.json
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.json
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.runtimeconfig.dev.json
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.dll
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\bin\Debug\netcoreapp2.0\Consulting.pdb
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csprojResolveAssemblyReference.cache
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.csproj.CoreCompileInputs.cache
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfoInputs.cache
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.AssemblyInfo.cs
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.dll
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\Consulting.pdb
+C:\Dinesh\Course Material\2230_MSTech\MidTermConsulting\MidTermConsulting\Consulting\Consulting\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

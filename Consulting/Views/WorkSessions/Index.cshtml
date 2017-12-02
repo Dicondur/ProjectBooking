@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Consulting.Models.WorkSession>
+
+@{
+    ViewData["Title"] = "Work Sessions for Contract #" + @ViewBag.ContractId + ": " + @ViewBag.ContractName;
+}
+
+<h2>Work Sessions for Contract # @ViewBag.Contractid: @ViewBag.Contractname</h2>
+
+<p>
+    <a asp-action="Create" asp-route-contractId="@ViewBag.Contractid" >Create New</a>
+   
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateWorked)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Consultant.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Consultant.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalChargeBeforeTax)
+                </th>
+               
+                <th>
+                    @Html.DisplayNameFor(model => model.WorkDescription)
+                </th>
+          
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateWorked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Consultant.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Consultant.LastName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalChargeBeforeTax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkDescription)
+            </td>
+           
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.WorkSessionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.WorkSessionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.WorkSessionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

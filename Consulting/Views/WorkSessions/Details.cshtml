@@ -1,0 +1,66 @@
+﻿@model Consulting.Models.WorkSession
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>WorkSession</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateWorked)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateWorked)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HoursWorked)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HoursWorked)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.WorkDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.WorkDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HourlyRate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HourlyRate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProvincialTax)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProvincialTax)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalChargeBeforeTax)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalChargeBeforeTax)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Consultant)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Consultant.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Contract)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Contract.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.WorkSessionId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

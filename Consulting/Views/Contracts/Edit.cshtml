@@ -1,0 +1,66 @@
+﻿@model Consulting.Models.Contract
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Contract</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ContractId" />
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label"></label>
+                <select asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId"></select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaysDuration" class="control-label"></label>
+                <input asp-for="DaysDuration" class="form-control" />
+                <span asp-validation-for="DaysDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuotedPrice" class="control-label"></label>
+                <input asp-for="QuotedPrice" class="form-control" />
+                <span asp-validation-for="QuotedPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="Closed" /> @Html.DisplayNameFor(model => model.Closed)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalChargedToDate" class="control-label"></label>
+                <input asp-for="TotalChargedToDate" class="form-control" />
+                <span asp-validation-for="TotalChargedToDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
